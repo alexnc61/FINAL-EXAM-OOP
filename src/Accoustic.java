@@ -5,6 +5,7 @@ public class Accoustic extends Guitar {
 		super();
 		guitarSoundType = random();
 	}
+	//Random generator
 	private String random() {
 		Random rand = new Random();
 		String guitarSound = "";
